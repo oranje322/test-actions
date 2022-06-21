@@ -1,18 +1,17 @@
 const RPconfig = {
-  token: '00000000-0000-0000-0000-000000000000',
-  endpoint: 'https://your.reportportal.server/api/v1',
-  project: 'Your project',
-  launch: 'Custom regression',
-  attributes: [
+  'token': 'f3735240-1b3e-4054-b638-3fd873e1f597',
+  'endpoint': 'http://qa.reportportal.io/api/v1',
+  'project': 'Aleksandr',
+  'launch': 'Playwright test',
+  'description': 'UI tests processed by Playwright',
+  'attributes': [
     {
-      key: 'agent',
-      value: 'playwright',
-    },
-    {
-      value: 'example',
+      'key': 'RP_LAUNCH',
+      'value': 'TEST-UI tests',
     },
   ],
-  description: 'This is an example launch with playwright tests',
+  includeTestSteps: true,
+  debug: false,
 };
 
 const config = {

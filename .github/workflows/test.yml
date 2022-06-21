@@ -14,5 +14,7 @@ jobs:
           node-version: 16.x
       - name: Clean install of node dependencies
         run: npm ci
+      - name: playwright install
+        run: npx playwright install
       - name: run tests
         run: npx playwright test --config=playwright.config.ts
