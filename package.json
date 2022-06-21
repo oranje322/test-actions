@@ -4,6 +4,6 @@
   },
   "devDependencies": {
     "@playwright/test": "1.21",
-    "@reportportal/agent-js-playwright": "5.0.4"
+    "@reportportal/agent-js-playwright": "5.0.2"
   }
 }
