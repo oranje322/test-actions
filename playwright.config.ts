@@ -1,7 +1,7 @@
 const RPconfig = {
-  'token': 'f3735240-1b3e-4054-b638-3fd873e1f597',
-  'endpoint': 'http://qa.reportportal.io/api/v1',
-  'project': 'Aleksandr',
+  'token': '43e78d0e-6b2c-4f03-b5de-0263c4a3d970',
+  'endpoint': 'http://alpha.reportportal.io/api/v1',
+  'project': 'oranje322_personal',
   'launch': 'Playwright test',
   'description': 'UI tests processed by Playwright',
   'attributes': [
